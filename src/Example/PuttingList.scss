@@ -1,0 +1,24 @@
+.outputtinglist{
+    // &:test-list{
+    // border-bottom: 1px solid black;
+    // }
+    .jobs-list{
+        width: 100vh;
+        margin: 0 auto;
+        &:single-job{
+            border-top: 2px solid gray; 
+        }
+        .single-job{
+            border-bottom: 2px solid gray;
+            height: 40px;
+            margin: 10px;
+            .edit{
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+.outputtinglist {& :test-list{
+    background-color: yellow;
+}}
